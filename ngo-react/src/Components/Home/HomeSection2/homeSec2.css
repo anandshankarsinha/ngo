@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.homeSec2 {
+    background: var(--BG, #FEFDFC);
+    height: 720px;
+    width: 99%;
+    margin-top: 2.5%;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.home2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home2-btn {
+    border-radius: 0.25rem;
+    background: var(--Yellow, #F2C94C);
+    padding: 10px 15px;
+    border: none;
+    margin-left: 10%;
+}
+
+.home2 .p2 {
+    color: var(--Secondary-text, #525560);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 10%;
+    /* 1.6rem */
+}
+
+.home2-left {
+    width: 40%;
+    text-align: left;
+    margin: auto;
+}
+
+.home2-left h3 {
+    color: var(--Primary-text, #1D2130);
+    margin-left: 10%;
+    font-family: Roboto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 3.6rem */
+}
+
+.home2-left-p1 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+.home2-right {
+    width: 40%;
+    /* height: 40%; */
+
+}
+
+.home2-right img {
+    width: 70%;
+    margin-top: 10%;
+    /* height: 40%; */
+}
+.home2-footer{
+    width: 100%;
+    margin-left: 1%;
+}
+.home2-support {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.home2-hr {
+    width: 80%;
+    margin-left: 10px;
+}
+
+.home2-support p {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    width: 200px;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+.home2-logos{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+}

@@ -1,0 +1,88 @@
+.home4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    width: 40%;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.home4 h3 {
+    color: var(--Primary-text, #1D2130);
+
+    /* H2 */
+    font-family: Roboto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 3.6rem */
+}
+
+.home4-p1 {
+    margin-left: -8%;
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+
+.home4-box {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.h4-box {
+    width: 280px;
+    height: 320px;
+    border-radius: 1.25rem;
+    opacity: 0.6;
+    background: var(--Black, #0B0706);
+    padding: 25px;
+    text-align: left;
+}
+
+.h4-box h4 {
+    color: #FFF;
+
+    /* H3 */
+    font-family: Roboto;
+    font-size: 1.75rem;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 150%;
+    /* 2.625rem */
+}
+
+.h4-box p {
+    color: #FFF;
+    /* Paragraph */
+    font-family: Roboto;
+    margin-top: 0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 1.6rem */
+}
+
+.h4-box .h4-box-btn {
+    border-radius: 0.25rem;
+    background: #FFF;
+    color: var(--Primary-text, #1D2130);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px;
+    margin-top: 20%;
+}

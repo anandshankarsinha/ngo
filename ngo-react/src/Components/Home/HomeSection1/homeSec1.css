@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.homeSec1::before {
+    content: "";
+    position: absolute;
+    background: url(../../../assets/bgImage-sec1.png) no-repeat center center/cover;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+    top: 5;
+    left: 0;
+    opacity: 1;
+}
+
+.homeSec1 { 
+    width: 100%;
+}
+
+.home1 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 40%;
+    /* margin-left: 5%; */
+    /* margin-top: 10%; */
+}
+
+.home1 h1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+    margin-top: 35%;
+    margin-left: 10%;
+}
+
+.home1-btn {
+    width: 120px;
+    margin-left: 5%;
+    border-radius: 0.25rem;
+    background: #FFF;
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin-left: 10%;
+}
+
+.home1-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    color: #fff;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.home1-hr {
+    width: 60vw;
+}
