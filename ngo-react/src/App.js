@@ -4,13 +4,16 @@ import Body from "./Components/Body";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
+import WhatWeDo from "./Components/Whatwedo/WhatWeDo";
+import Media from "./Components/Media/Media";
+import About from "./Components/About/About";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <RouterProvider router={appRouter} />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
@@ -23,6 +26,18 @@ const appRouter = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/whatwedo",
+        element: <WhatWeDo />,
+      },
+      {
+        path: "/media",
+        element: <Media />,
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
     ],
   },
