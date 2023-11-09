@@ -4,6 +4,9 @@
     align-items: center;
     /* box-shadow: 10px grey; */
 }
+i{
+    color: rgb(244, 244, 106);
+}
 .navbar-logo{
     cursor:crosshair;
 }
