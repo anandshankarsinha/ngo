@@ -1,0 +1,137 @@
+.about1 {}
+
+.about-top {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 20%;
+    padding-top: 3%;
+}
+
+.about1-top-left {
+    width: 50%;
+}
+.about1-top-right {
+    width: 40%;
+}
+
+.about1-p1 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    margin-left: -7%;
+}
+
+.about1-h1 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    width: 500px;
+
+    /* 4.2rem */
+}
+
+.about1-h2 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 15px;
+    /* 1.875rem */
+}
+
+.about1-p2 {
+    color: var(--Primary-text, #1D2130);
+
+    /* Paragraph */
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 1.6rem */
+    opacity: 0.7;
+}
+
+
+/* Bottom */
+.about-bottom {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.about-bottom-home {
+
+    background: var(--yellow-light, #FCEDC6);
+    padding-bottom: 5%;
+}
+
+.about-bottom-row {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10%;
+    padding-top: 30%;
+    
+}
+.about-bottom-row-l{
+    margin-right: 60px;
+}
+.about1-h3 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.about1-h4 {
+    color: var(--Primary-text, #1D2130);
+
+    /* H3 */
+    font-family: Roboto;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* 2.625rem */
+}
+
+.about1-p3 {
+    color: var(--Primary-text, #1D2130);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 1.6rem */
+    opacity: 0.7;
+}
+
+
+
+/*bg  */
+.about-bg{
+    position: absolute;
+    top: 550px;
+}

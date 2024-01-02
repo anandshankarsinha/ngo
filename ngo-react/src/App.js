@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import WhatWeDo from "./Components/Whatwedo/WhatWeDo";
 import Media from "./Components/Media/Media";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -38,6 +39,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },
